@@ -1,0 +1,1 @@
+CREATE TABLE `artigo`.`mensagem` ( `id` INT NOT NULL AUTO_INCREMENT , `nome` VARCHAR(30) NOT NULL , `email` VARCHAR(50) NOT NULL , `telefone` BIGINT NOT NULL , `mensagem` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB CHARSET=utf8mb4 COLLATE utf8mb4_unicode_ci COMMENT = 'Tabela de mensagens';
