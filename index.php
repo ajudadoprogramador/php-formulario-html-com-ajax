@@ -19,7 +19,7 @@
         <label for="telefone">Telefone:</label>
         <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" value="">
 
-        <label for="mensagem">Nome:</label>
+        <label for="mensagem">Mensagem:</label>
         <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem"></textarea>
     </fieldset>
 
