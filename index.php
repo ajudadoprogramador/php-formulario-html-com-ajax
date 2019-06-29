@@ -5,27 +5,20 @@
     <title>Formulário AJAX</title>
 </head>
 <body>
-
 <form action="salvar.php" method="post">
     <fieldset>
         <legend>FALE CONOSCO</legend>
-
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome" placeholder="Digite seu nome" value="">
-
         <label for="email">E-mail:</label>
         <input type="email" name="email" id="email" placeholder="Digite seu e-mail" value="">
-
         <label for="telefone">Telefone:</label>
         <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" value="">
-
         <label for="mensagem">Mensagem:</label>
         <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem"></textarea>
     </fieldset>
-
     <button id="but_salvar">Salvar</button>
 </form>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="all.js"></script>
 <style>

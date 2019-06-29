@@ -1,6 +1,10 @@
 $(function(){
     // Executa assim que o botão de salvar for clicado
-    $('#but_salvar').click(function(){
+    $('#but_salvar').click(function(e){
+        
+        // Cancela o envio do formulário
+        e.preventDefault();
+
         // Pega os valores dos inputs e coloca nas variáveis
         var nome = $('#nome').val();
         var email = $('#email').val();
@@ -23,6 +27,6 @@ $(function(){
                 alert(resposta);
             }
         });
-        return false;
+        
     });
 });
